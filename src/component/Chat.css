@@ -1,0 +1,70 @@
+
+.chat{
+     position: fixed;
+     top: 480px;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border-radius: 20px;
+     align-items: center;
+     font-size: 30px;
+     
+    
+
+}
+#icon{
+   margin-left: 0;
+}
+span{
+    margin-left: 10px;
+}
+.chatbox{
+    float: right;
+    /* align-items: center; */
+    /* width: 500px; */
+    
+}
+
+.chatboxshow{
+    position: fixed;
+    top: 100px;
+    border: thin solid black;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px grey;
+    padding: 20px;
+    margin-left: -200px;
+    
+}
+#xmarkicon{
+    position: fixed;
+    top: 480px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 30px;
+    right: 50px;
+    
+}
+.imglogo{
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    height: 38px;
+    margin-top: 175px;
+}
+#send{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -40px;
+    rotate: 50deg;
+    font-size: 30px;
+    color: grey;
+}

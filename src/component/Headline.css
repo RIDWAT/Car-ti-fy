@@ -1,0 +1,11 @@
+hr{
+    margin-top: 50px;
+    width: 550px;
+    border: thin solid   rgb(226, 223, 223);
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}

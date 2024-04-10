@@ -1,0 +1,11 @@
+.spanclass{
+    margin-top: 50px;
+    
+}
+.headline2{
+  /* display: flex; 
+  justify-content: space-around;  */
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 10px;
+}

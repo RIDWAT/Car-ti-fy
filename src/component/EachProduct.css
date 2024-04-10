@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span{
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    /* border: thin solid black; */
+    margin: 50px 0;
+    width: 285px;
+    /* padding:0 20px; */
+
+}
+img{
+    width: 100%;
+}
+.title{
+    margin-top: 10px;
+
+}
+p{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.quick{
+    /* border: thin solid red; */
+    margin-top: -40px;
+    padding: 10px;
+    background-color: #337ab7;
+    position: relative;
+    display: none;
+
+
+}
+.quick:hover{
+    background-color: #0c477a;
+}
+.card:hover .quick{
+    display: block;
+}
+
